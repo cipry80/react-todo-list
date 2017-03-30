@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import TextInput from './TextInput';
 
 export default class App extends Component {
   render() {
-    return <div>Testing from React</div>
+    return <div>
+              <h1>This is App component</h1>
+              <TextInput />
+          </div>
   }
 }
