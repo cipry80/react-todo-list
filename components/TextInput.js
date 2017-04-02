@@ -27,7 +27,6 @@ export default class TextInput extends Component {
           placeholder="this is going to be text"
           value={this.state.inputText}
           onChange={this.handleChange.bind(this)}
-
           />
         <TextDisplay
           text={this.state.inputText}
